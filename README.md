@@ -1,66 +1,75 @@
-### Perché questa applicazione? 🤔
-La Formula 1, ossia la massima categoria di vetture monoposto da corsa su circuito (definita dalla FIA), ha vissuto negli ultimi anni un'impressionante aumento di spettatori, passando dai circa 300.000 spettatori medi in ogni gara agli oltre 1.200.000 registrati nel 2023. L'aumento di interesse nella Formula 1 ha coinvolto diverse strategie di marketing e di comunicazione, tra cui quella relativa ai social network (in particolare su piattaforme come YouTube e Netflix) che hanno permesso alla F1 di raggiungere un pubblico più vasto e di coinvolgere gli appassionati in modi nuovi e innovativi. Tra le tante è importante citare la serie "Drive to Survive", realizzata da Netflix, la quale ha svolto un ruolo significativo nell'aumentare l'interesse per la Formula 1, soprattutto tra coloro che potrebbero non essere stati tradizionalmente fan dello sport, offrendo un dietro le quinte delle gare e delle vite dei piloti, rendendo il mondo della F1 più accessibile e coinvolgente per il grande pubblico. 
-
-L'ammodernamento generale della Formula 1 non si è limitato solo alla comunicazione e al marketing, ma ha coinvolto anche miglioramenti tecnologici, regolamentari e di intrattenimento durante le gare stesse. Questi cambiamenti hanno reso lo sport più competitivo, avvincente e spettacolare, contribuendo così ad attrarre un numero sempre maggiore di spettatori.
+# Formula 1 predictor
+In line with this modernization and the growing enthusiasm for the sport, we decided to create an application that further stimulates interest in Formula 1 by allowing users to simulate real F1 races. The goal is to develop an app capable of simulating a full F1 race by predicting the final standings of the drivers based on parameters chosen by the user. The customizable parameters include:
+- **Drivers:** select up to 20 different drivers (the maximum allowed in a real F1 race) and run the simulation;
+- **Circuit:** choose the track where the race will take place;
+- **Weather conditions:** select your preferred weather scenario;
+- **Number of laps:** set the number of laps (minimum 1, realistically up to 100).
 
 <p align="center"> 
-    <img src="Media/Logo.png" alt="Logo" width="250" height="250">
+    <img src="Media/Logo.png" alt="Logo" width="15%"">
 </p>
 
-# Formula 1 Predictor 🏎️
-In linea con il rinnovamento e il crescente interesse citato precedentemente, abbiamo pensato di creare un'applicazione che possa stimolare ulteriormente l'interesse verso questo sport, dando la possibilità agli utenti di simulare delle vere e proprie gare di F1. L'obiettivo è quello di realizzare un'applicazione in grado di simulare un'intera gara di F1 prevedendo, sulla base di parametri scelti dall'utente, l'ordine di arrivo dei piloti in griglia. I parametri selezionabili dall'utente sono:
+## Installation
+1. Install the latest version of [Python](https://www.python.org/) on your computer;
+2. [Download](https://github.com/John-64/Formula-1-Predictor/archive/refs/heads/main.zip) the project in ZIP format from this repository;
+3. Extract it into a new directory named "Formula1Predictor";
+4. Open your computer’s terminal and navigate to the project folder by typing:
+    ```bash
+    cd ./path-fino-alla-cartella/Formula1Predictor
+5. Install all required libraries (listed in ```requirements.txt```) in a single step by running:
+    ```bash
+    pip install -r requirements.txt
 
-- **Piloti**: è possibile selezionare fino a a 20 piloti diversi (ossia il massimo consentito in una gara di F1) e simulare la gara;
-- **Circuito**: viene selezionato il circuito in cui i piloti guideranno;
-- **Condizioni meteo**: viene selezionata la condizione meteo preferita;
-- **Numero di giri**: si sceglie il numero di giri della gara (minimo 1 e realisticamente massimo 100).
-
-## Installazione ⚙️
-1. Installate l'ultima versione di [Python](https://www.python.org/) sul vostro Personal Computer;
-2. [Scaricate](https://github.com/John-64/Formula-1-Predictor/archive/refs/heads/main.zip) il progetto in formato .zip da questa repository;
-3. Estraete il file .zip in una nuova directory chiamata "Formula1Predictor";
-4. Aprite il terminale del vostro Personal Computer ed eseguite il seguente comando per entrare nella directory del progetto: 
-
-   cd ./path-fino-alla-cartella/Formula1Predictor
-5. Installate tutte le librerie necessarie (disponibili nel file requirements.txt) in un solo passo eseguendo il seguente comando:
-
-   pip install -r requirements.txt
-
-6. Se tutto è stato installato correttamente non resta altro che eseguire questo comando:
-   
+6. If everything was installed correctly, run the following command:
+   ```bash
    python app.py
    
-8. E cliccare al seguente [link](http://127.0.0.1:5000/) per usare l'applicazioen!
+8. Then click on the following link [link](http://127.0.0.1:5000/) to start using the application!
 
-Buon divertimento!
+Have fun!
  
-## Istruzioni d'uso 📖
-Una volta avviata l'applicazione, vi ritroverete davanti alla seguente pagina web:
+## User Guide
+Once the application starts, you’ll see the following webpage:
 
 <p align="center"> 
-    <img src="Media/Home.png" alt="Home" width="650">
+    <img src="Media/Home.png" alt="Home" width="50%">
 </p>
 
-Impostate quindi i parametri che desiderate, ad esempio:
-
+Set your desired parameters, for example:
 
 <p align="center"> 
-    <img src="Media/DriverSelected.png" alt="DriverSelected" width="650">
+    <img src="Media/DriverSelected.png" alt="DriverSelected" width="50%">
 </p>
 
-E cliccate successivamente sul pulsante "Predict" per simulare la gara!
+Then click the "Predict" button to simulate the race!
 
 <p align="center"> 
-    <img src="Media/Output.png" alt="Output" width="650">
+    <img src="Media/Output.png" alt="Output" width="50%">
 </p>
 
-## Demo 📺
-Ecco qui una piccola demo della nostra applicazione:
+## Demo
+Here’s a short demo of our application:
 
-![gif](Media/Demo.gif)
+<p align="center" width="40%">
+  <img src="Media/Demo.gif" alt="F1predictor" width="80%">
+</p>
 
-### Credits 🙏
+## Credits
 - [F1](https://www.formula1.com/)
 - [Font](https://imjustcreative.com/download-f1-fonts-formula-1-fonts/2021/09/16)
 - [Kaggle](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)
 - [Wikipedia](https://it.wikipedia.org/wiki/Formula_1)
+
+## Info
+This project was created for the course "Fondamenti Di Intelligenza Artificiale" at the Università degli Studi di Salerno.
+
+## Contribution
+If you'd like to contribute to Bloky, please follow these steps:
+- Fork the repository.
+- Create a new branch (git checkout -b feature/YourFeatureName).
+- Commit your changes (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature/YourFeatureName).
+- Open a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
